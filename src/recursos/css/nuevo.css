@@ -1,0 +1,49 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #2596be;
+}
+h1
+{
+ color:#fff;    
+ font-weight: bolder;
+}
+.formulario
+{
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 35px;
+    border-radius: 6px;
+    font-family: Helvetica;
+    color: white;
+    background-color: #0b1e30;
+}
+
+.forms-control
+{
+    width: 100%;
+    background: #20303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f531f;
+    color: white;
+}
+
+.btn-fm
+{
+   width: 30%;
+   background:#0e4c75;
+   border: none;
+   padding: 8px;
+   color: white;
+   margin-right: 1rem;
+   border-radius: 4px;
+}

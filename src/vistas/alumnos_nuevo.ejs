@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>Nuevo Alumno</title>
+    <link rel="stylesheet" href="../css/nuevo.css">
+</head>
+<body>
+    <h1 class="text-center m-3">Nuevo Alumno</h1>
+    <div class="formulario">
+        <div class="row">
+            <div class="col col">
+                <form action="/alumnos/agregar" method="post">
+                        <label for="inputMatri">Matricula</label>
+                        <input type="text"   class="forms-control" name="tfMatricula" id="inputMatri" placeholder="Matricula"> 
+                        <label for="inputName">Nombre del alumno</label>
+                        <input type="text"   class="forms-control" name="tfNombre" id="inputName" placeholder="Nombre">
+                        <label for="inputApellidos">Apellidos</label>
+                        <input type="text"   class="forms-control" name="tfApellidos" id="inputApellidos" placeholder="Apellidos">
+                        <label for="inputDdi">DDI</label>
+                        <input type="number" class="forms-control" name="tfDdi" id="inputDdi" placeholder="" > 
+                        <label for="inputDwi">DWI</label>
+                        <input type="number" class="forms-control" name="tfDwi" id="inputdwi" placeholder="">
+                        <label for="inputEcbd">ECBD</label>
+                        <input type="number" class="forms-control" name="tfEcbd" id="inputEcbd" placeholder="">
+
+                        <button type="submit" name="accion" value="agregar" class="btn-fm">Agregar</button>
+                        
+                        <a class="btn btn-secondary" href="/alumnos">Regresar</a>
+        
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

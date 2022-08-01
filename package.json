@@ -1,0 +1,23 @@
+{
+  "name": "web-express-mysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node Servidor.js",
+    "dev": "nodemon Servidor.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-myconnection": "^1.0.4",
+    "express-session": "^1.17.3",
+    "mysql": "^2.18.1"
+  }
+}
